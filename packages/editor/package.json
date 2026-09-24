@@ -1,0 +1,28 @@
+{
+  "name": "@vjson/editor",
+  "version": "0.0.0",
+  "description": "vjson 可视化编辑器: 节点树 / 属性面板 / scriptSetup / 样式编辑 + 实时预览",
+  "type": "module",
+  "main": "./dist/vjson-editor.js",
+  "module": "./dist/vjson-editor.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vjson-editor.js"
+    },
+    "./style.css": "./dist/vjson-editor.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@vjson/core": "workspace:*",
+    "vue": "^3.5.42"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "vite": "^8.2.2"
+  }
+}

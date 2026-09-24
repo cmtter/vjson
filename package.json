@@ -1,0 +1,19 @@
+{
+  "name": "vjson-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "vjson monorepo: 运行时 JSON 渲染引擎 + 可视化编辑器",
+  "scripts": {
+    "dev": "pnpm play:dev",
+    "build": "pnpm -r --filter @vjson/core --filter @vjson/editor run build",
+    "play:dev": "pnpm -C packages/play dev",
+    "play:build": "pnpm -C packages/play build",
+    "doc:dev": "pnpm -C packages/doc dev",
+    "doc:build": "pnpm -C packages/doc build",
+    "doc:preview": "pnpm -C packages/doc preview"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}

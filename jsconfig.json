@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@vjson/core": ["./packages/core/src/index.js"],
+      "@vjson/editor": ["./packages/editor/src/index.js"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "packages/*/dist"]
+}

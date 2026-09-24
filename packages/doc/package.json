@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build",
+    "build": "vitepress build --base /vjson/ --outDir ../../docs",
     "preview": "vitepress preview"
   },
   "devDependencies": {

@@ -1,0 +1,1 @@
+import{_ as i,o as a,c as t,ae as n}from"./chunks/framework.Dn44qsu3.js";const E=JSON.parse('{"title":"编辑器使用手册","description":"","frontmatter":{},"headers":[],"relativePath":"editor.md","filePath":"editor.md"}'),e={name:"editor.md"};function h(l,s,p,d,k,r){return a(),t("div",null,[...s[0]||(s[0]=[n("",19)])])}const c=i(e,[["render",h]]);export{E as __pageData,c as default};

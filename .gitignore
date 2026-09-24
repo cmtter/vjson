@@ -15,8 +15,8 @@ coverage
 *.local
 
 # VitePress
-#packages/doc/.vitepress/cache
-#packages/doc/.vitepress/dist
+packages/doc/.vitepress/cache
+packages/doc/.vitepress/dist
 
 # Editor directories and files
 .vscode/*

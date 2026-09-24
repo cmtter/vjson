@@ -1,6 +1,6 @@
 {
   "name": "@vjson/editor",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "vjson 可视化编辑器: 节点树 / 属性面板 / scriptSetup / 样式编辑 + 实时预览",
   "type": "module",
   "main": "./dist/vjson-editor.js",
@@ -14,6 +14,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "vite build"
   },

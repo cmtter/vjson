@@ -1,6 +1,6 @@
 {
   "name": "vjson-monorepo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "description": "vjson monorepo: 运行时 JSON 渲染引擎 + 可视化编辑器",

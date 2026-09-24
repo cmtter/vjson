@@ -1,6 +1,6 @@
 {
   "name": "@vjson/play",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "description": "vjson / editor 功能验证应用(playground)",
   "type": "module",

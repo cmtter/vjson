@@ -1,6 +1,6 @@
 {
   "name": "@vjson/core",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "vjson 渲染引擎核心: 运行时将 vjson JSON 编译为 Vue 组件",
   "type": "module",
   "main": "./dist/vjson-core.js",
@@ -13,6 +13,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "vite build"
   },

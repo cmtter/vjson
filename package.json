@@ -11,8 +11,9 @@
     "play:build": "pnpm -C packages/play build",
     "doc:dev": "pnpm -C packages/doc dev",
     "doc:build": "pnpm -C packages/doc build",
-    "doc:preview": "pnpm -C packages/doc preview"
-  },
+    "doc:preview": "pnpm -C packages/doc preview",
+    "up:version": "pnpm version -r patch"
+     },
   "engines": {
     "node": "^22.18.0 || >=24.12.0"
   }

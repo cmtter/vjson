@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // play: 功能验证应用, 通过 workspace 协议直接引用 core / editor 源码(不经 lib 构建)
 export default defineConfig({
+  base: '/vjson/play/',
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {

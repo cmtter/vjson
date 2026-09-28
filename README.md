@@ -4,6 +4,8 @@ vjson 是一个 **以 JSON 格式描述 Vue 组件、运行时（runtime）实�
 
 文档: https://cmtter.github.io/vjson
 
+Demo: https://cmtter.github.io/vjson/play/index.html
+
 > 详细文档见 `packages/doc`（`pnpm doc:dev` 启动文档站点）。
 
 ## Monorepo 结构

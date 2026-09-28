@@ -1,6 +1,6 @@
 {
   "name": "vjson-monorepo",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "description": "vjson monorepo: 运行时 JSON 渲染引擎 + 可视化编辑器",
@@ -12,7 +12,8 @@
     "doc:dev": "pnpm -C packages/doc dev",
     "doc:build": "pnpm -C packages/doc build",
     "doc:preview": "pnpm -C packages/doc preview",
-    "up:version": "pnpm version -r patch"
+    "up:version": "pnpm version -r patch",
+    "reset:version": "pnpm exec -r pnpm version 1.0.0 --no-git-tag-version"
   },
   "engines": {
     "node": "^22.18.0 || >=24.12.0"

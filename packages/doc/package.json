@@ -1,6 +1,6 @@
 {
   "name": "@vjson/doc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "vjson / editor 文档站点(VitePress)",
   "type": "module",
